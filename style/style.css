@@ -17,10 +17,10 @@
     }
     #img{
         width: 50%;
-        margin: auto;
+        
     }
     #banner-title{
-        font-size: 30px;
+        font-size: 25px;
     }
     #nav-text{
         font-size: 25px;
@@ -32,5 +32,8 @@
     }
     #btn{
         font-size: 22px;
+    }
+    #banner-dspt{
+        width: 80%;
     }
 }
