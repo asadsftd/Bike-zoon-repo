@@ -1,0 +1,36 @@
+@media screen and (max-width:576px) {
+    #nav-itemes{
+        display: none;
+    }
+    #banner-container{
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    #slide3, #slide2, #slide1{
+        height: auto;
+        padding: 50px 0px;
+        
+    }
+    #header{
+        width: 96%;
+        margin: auto;
+    }
+    #img{
+        width: 80%;
+        margin: auto;
+    }
+    #banner-title{
+        font-size: 30px;
+    }
+    #nav-text{
+        font-size: 25px;
+    }
+    #nav-meno{
+        width: 95%;
+        margin: auto;
+        margin-top: 12px;
+    }
+    #btn{
+        font-size: 22px;
+    }
+}
