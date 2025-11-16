@@ -17,6 +17,8 @@
     }
     #img{
         width: 50%;
+        position: relative;
+        left: 50px;
         
     }
     #banner-title{
