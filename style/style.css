@@ -1,6 +1,15 @@
 #sidver{
     display: none;
 }
+ #latescard{
+        padding-bottom: 20px;
+    }
+    #cardtext, #latescard , #carddspt{
+        padding-left: 10px;
+    }
+    #lates-img{
+        padding: 5px 10px;
+    }
 @media screen and (max-width:576px) {
     #nav-itemes{
         display: none;
@@ -14,7 +23,7 @@
         padding: 50px 0px;
         
     }
-    #header{
+    #header {
         width: 96%;
         margin: auto;
     }
@@ -58,9 +67,24 @@
         font-size: 25px;
     }
     #bike-img{
-        width: 250px;
+        width: 200px;
         margin:20px auto;
         
         
+    }
+    #latest-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #btn-primarys{
+        font-size: 22px;
+    }
+    #latescard{
+        padding-bottom: 20px;
+    }
+    #cardtext, #latescard , #carddspt{
+        padding-left: 10px;
+    }
+    #lates-img{
+        padding: 5px 10px;
     }
 }
