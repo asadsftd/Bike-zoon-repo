@@ -110,4 +110,19 @@
     #question-dspt{
         width: 94%;
     }
+    #footer{
+        height: 400px;
+    }
+    #footer-container{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 20px;
+    }
+    #footer-two{
+        margin-top: 20px;
+    }
+    #ul{
+        flex-direction: row;
+        gap: 10px;
+    }
 }
