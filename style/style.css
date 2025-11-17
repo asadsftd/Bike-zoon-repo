@@ -87,4 +87,7 @@
     #lates-img{
         padding: 5px 10px;
     }
+    #clients-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
