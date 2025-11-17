@@ -10,6 +10,11 @@
     #lates-img{
         padding: 5px 10px;
     }
+    #question-title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* Responsive */
 @media screen and (max-width:576px) {
     #nav-itemes{
         display: none;
@@ -89,5 +94,20 @@
     }
     #clients-container{
         grid-template-columns: repeat(1, 1fr);
+    }
+    #container{
+        flex-direction: column;
+    }
+    #question-text{
+        font-size: 25px;
+    }
+    #question-title{
+        font-size: 16px;
+    }
+    #feq-img{
+        width: 100%;
+    }
+    #question-dspt{
+        width: 94%;
     }
 }
