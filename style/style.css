@@ -1,3 +1,6 @@
+#sidver{
+    display: none;
+}
 @media screen and (max-width:576px) {
     #nav-itemes{
         display: none;
@@ -33,8 +36,31 @@
     }
     #btn{
         font-size: 22px;
+        display: none;
+    }
+    #btn-primary{
+        font-size: 22px;
     }
     #banner-dspt{
         width: 80%;
+    }
+    #sidver{
+        display: block;
+    }
+    #bike-container{
+        grid-template-columns: repeat(1,1fr);
+        width: 80%;
+        margin: auto;
+        gap: 0px;
+        margin-top: 40px;
+    }
+    #bike-title{
+        font-size: 25px;
+    }
+    #bike-img{
+        width: 250px;
+        margin:20px auto;
+        
+        
     }
 }

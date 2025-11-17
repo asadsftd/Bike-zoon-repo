@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="cursor-pointer">
     <!-- header section -->
@@ -25,7 +26,7 @@ id="nav-item">
     <li class="text-xl font-semibold" id="nav-itemes">Contact</li>
     <button class="btn bg-[#E76F51] text-[25px] 
     font-bold text-white px-5 py-6 rounded-lg" 
-    id="btn">Login</button>
+    id="btn">Login</button><i class="fa-solid fa-list" id="sidver"></i>
 </ul>
         </nav>
         <!-- Banner / Hero Section -->
@@ -48,7 +49,7 @@ id="nav-item">
             <div class="pl-[80px] mt-3">
                 <button class="btn bg-[#E76F51] text-[25px] 
             font-bold text-white px-5 py-6 rounded-lg " 
-            id="btn">Purchese</button>
+            id="btn-primary">Purchese</button>
             </div>
         </div>
         <div class="">
@@ -79,7 +80,7 @@ id="nav-item">
             <div class="pl-[80px] mt-3">
                 <button class="btn bg-[#E76F51] text-[25px] 
             font-bold text-white px-5 py-6 rounded-lg " 
-            id="btn">Purchese</button>
+            id="btn-primary">Purchese</button>
             </div>
         </div>
         <div class="">
@@ -110,7 +111,7 @@ id="nav-item">
             <div class="pl-[80px] mt-3">
                 <button class="btn bg-[#E76F51] text-[25px] 
             font-bold text-white px-5 py-6 rounded-lg " 
-            id="btn">Purchese</button>
+            id="btn-primary">Purchese</button>
             </div>
         </div>
         <div class="">
@@ -129,8 +130,30 @@ id="nav-item">
          <!--  -->
      </header>
      <!-- main section -->
-      <main>
-
+      <main class="container mx-auto mt-16" id="main">
+        <!-- text -->
+         <div class="text-[35px] font-bold 
+         text-center" id="bike-title">
+            Fetured Bikes In This Year
+        </div>
+        <!-- container -->
+         <div class="grid grid-cols-3 w-[80%] mx-auto mt-10" 
+         id="bike-container">
+            <!-- card one -->
+             <div class="">
+                <img src="./images/others/feature-bike.png" alt="" class="" 
+                id="bike-img" >
+             </div>
+            <!-- card two -->
+             <div class="">
+                <img src="./images/others/feature-bike.png" alt="" class="" id="bike-img" >
+             </div>
+            <!-- card three -->
+             <div class="">
+                <img src="./images/others/feature-bike.png" alt="" class="" id="bike-img">
+             </div>
+             <!--  -->
+         </div>
       </main>
       <!-- footer section -->
        <footer>
